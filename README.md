@@ -6,11 +6,16 @@ Should include:
 * Goals  
 * Type of sample  
 * Type of data 
+*	Conclusions of the study
 
-This project will reproduce the study described in the article “The draft genome of tropical fruit durian Durio zibethinus” made by Teh et al. 2017.
-The goal in this study was ... 
-The data 
+This project will reproduce the study described in the article *“The draft genome of tropical fruit durian Durio zibethinus”* made by Teh *et al.* 2017.
+The goal in this study was to aquire more genetic knowledge about the famous durian fruit. The understanding of the underlying genomics and transcriptomics of the fruit is of great importance due to the major economical role it plays in China and parts of Southeast Asia. The results from this study is of value when trying to understand the function and the agronomy of this fruit.
+
+In the context of this project, the goal is to get biologically interpretable results that hopefully is similiair to the results that Teh *et al.* got.  
+
+The type of data 
 ### Which analyses / softwares
+•	Most relevant analyses
 
 ### Time frame 
 Should include: 
