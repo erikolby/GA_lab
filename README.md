@@ -18,6 +18,13 @@ The type of data
 •	Most relevant analyses
 
 ### Time frame 
+## DNA assembly 
+# Canu - 17 hours - 4 cores.
+The program Canu will be used on the trimmed PacBio reads for the DNA assembly. This will take long time and meanwhile this is done, the RNA assembly can be started as well. 
+# Pilon - 30 min - 2 cores. 
+
+## RNA assembly 
+# T
 Should include: 
 Attention to checkpoints 
 Plan for long running times 
