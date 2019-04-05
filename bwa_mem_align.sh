@@ -14,4 +14,4 @@ module load bwa/0.7.17
 
 
 # Commands
-bwa mem /home/erol7379/genome_analysis/analyses/01_pac_bio_assembly_outfiles/genome_assembly.contigs.fasta /home/erol7379/genome_analysis/data/raw_data/Illumina/SRR6058604_scaffold_10.1P.fastq.gz /home/erol7379/genome_analysis/data/raw_data/Illumina/SRR6058604_scaffold_10.2P.fastq.gz > /home/erol7379/genome_analysis/analyses/scratch/bwa_alignment.sam
+bwa mem /home/erol7379/genome_analysis/analyses/scratch/genome_assembly.contigs.fasta /home/erol7379/genome_analysis/data/raw_data/Illumina/SRR6058604_scaffold_10.1P.fastq.gz /home/erol7379/genome_analysis/data/raw_data/Illumina/SRR6058604_scaffold_10.2P.fastq.gz > /home/erol7379/genome_analysis/analyses/scratch/bwa_alignment.sam
