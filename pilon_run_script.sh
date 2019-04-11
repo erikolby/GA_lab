@@ -14,4 +14,4 @@ module load Pilon/1.22
 
 
 # Commands
-pilon pilon --genome /home/erol7379/genome_analysis/analyses/01_pac_bio_assembly_outfiles/genome_assembly.contigs.fasta --bam /home/erol7379/genome_analysis/analyses/02_assembly_correction_pilon/bwa_alignment.sorted.bam --diploid --threads 4 --output pilon_output --outdir /home/erol7379/genome_analysis/analyses/02_assembly_correction_pilon/
+pilon pilon --genome /home/erol7379/genome_analysis/analyses/01_pac_bio_assembly_outfiles/genome_assembly.contigs.fasta --bam /home/erol7379/genome_analysis/analyses/02_assembly_correction_pilon/bwa_alignment.sorted.bam --diploid --threads 4 --output /home/erol7379/genome_analysis/analyses/02_assembly_correction_pilon/pilon_output  
