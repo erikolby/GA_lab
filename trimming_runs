@@ -1,3 +1,0 @@
-## Trimming 
-
-/home/erol7379/genome_analysis/data/raw_data/transcriptome/untrimmed/SRR6040095_scaffold_10.1.fastq.gz /home/erol7379/genome_analysis/data/raw_data/transcriptome/untrimmed/SRR6040095_scaffold_10.2.fastq.gz /home/erol7379/genome_analysis/analyses/03_trascript_trimming/forward_paired.fq.gz /home/erol7379/genome_analysis/analyses/03_trascript_trimming/forward_unpaired.fq.gz /home/erol7379/genome_analysis/analyses/03_trascript_trimming/reverse_paired.fq.gz /home/erol7379/genome_analysis/analyses/03_trascript_trimming/reverse_unpaired.fq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
