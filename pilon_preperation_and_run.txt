@@ -1,0 +1,15 @@
+## Running Pilon
+
+pilon --genome /home/erol7379/genome_analysis/analyses/01_pac_bio_assembly_outfiles/genome_assembly.contigs.fasta --bam /home/erol7379/genome_analysis/analyses/02_assembly_correction_pilon/bwa_alignment.sorted.bam --diploid --threads 2 --output pilon_output
+
+## Converting sam to bam.
+
+samtools view -S -b bwa_alignment.sam > bwa_alignment.bam
+
+## Sorting the bam file. Do not forget to remane it to file.sorted.bam  
+
+samtools sort $SAMPLE_ID.bam -o $SAMPLE_ID.sorted
+
+## Indexing the file.sorted.bam file 
+
+samtools index -b  $SAMPLE_ID.sorted.bam
