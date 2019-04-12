@@ -1,0 +1,1 @@
+ bowtie2 pilon_output.fasta bowtie_output_index
