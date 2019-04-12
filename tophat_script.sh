@@ -18,7 +18,7 @@ module load tophat
 # Commands
 for file in /home/erol7379/genome_analysis/data/raw_data/transcriptome/trimmed/*_10.1.fastq.gz
 do 
-	file2="$(sed 's/_10.1/_10.2' <<<$file)"
-
-	tophat -o /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/outputfiles \
+	file2="$(sed 's/_10\.1/_10.2' <<<$file)"
+	output=$(basename $file)
+	tophat -o /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/outputfiles/tophat_out_${output%.fastq.gz} \
 	-p 4 /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/bowtie_index_output $file $file2
