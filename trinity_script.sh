@@ -3,7 +3,7 @@
 #SBATCH -A g2019003
 #SBATCH -p core
 #SBATCH -n 4
-#SBATCH -t 07:00:00
+#SBATCH -t 10:00:00
 #SBATCH -J transcrpit_assembly_trinity_erik_olby
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user erik.olby@gmail.com
