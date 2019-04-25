@@ -10,9 +10,9 @@
 
 # Load modules
 module load bioinfo-tools
-module load trinity/2.8.2
 module load samtools
-module load jellyfish/2.2.6
+module load trinity
+
 
 # Commands
 for file in /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/outputfiles_sorted/*	
