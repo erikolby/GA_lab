@@ -1,0 +1,3 @@
+samtools merge merged_tophat_out.bam *.bam
+
+samtools sort merged_tophat_out.bam -o /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/merged_sorted_outfile 
