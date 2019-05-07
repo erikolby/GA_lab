@@ -10,6 +10,6 @@
 
 # Load modules
 module load bioinfo-tools
-module load trinity
+module load trinity/2.8.2
 
-Trinity --genome_guided_bam /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/merged_sorted_outfile/merged_sorted.bam --genome_guided_max_intron 10000 --max_memory 20G --CPU 4 --output /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/trinity_outfiles
+Trinity --genome_guided_bam /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/merged_sorted_outfile/merged_sorted.bam --genome_guided_max_intron 10000 --max_memory 20G --CPU 4 --output /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/trinity_outfiles --full_cleanup
