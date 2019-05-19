@@ -10,7 +10,9 @@
 
 # Load modules
 module load bioinfo-tools
-module load maker 
+module load maker
 
 cd /home/erol7379/genome_analysis/analyses/06_annotation/maker_runs
+
 maker 
+
