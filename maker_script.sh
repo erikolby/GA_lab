@@ -12,7 +12,7 @@
 module load bioinfo-tools
 module load maker
 
-cd /home/erol7379/genome_analysis/analyses/06_annotation/maker_runs
+cd /home/erol7379/genome_analysis/analyses/06_annotation/new_maker_runs
 
 
 maker 
