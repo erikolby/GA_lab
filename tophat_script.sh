@@ -1,4 +1,4 @@
-#!/bin/bash -l
+x#!/bin/bash -l
 
 #SBATCH -A g2019003
 #SBATCH -p core
@@ -21,5 +21,5 @@ do
 	file2="$(sed 's/_10\.1/_10.2/' <<<$file)"
 	output=$(basename $file)
 	tophat -o /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/outputfiles/tophat_out_${output%.fastq.gz} \
-	-p 4 /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/bowtie_index_output $file $file2
+	-p 4 /home/erol7379/genome_analysis/analyses/home/erol7379/genome_analysis/analyses/07_new_files_prot_assem/scaffold_10_ncbi_index $file $file2
 done
