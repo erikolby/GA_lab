@@ -1,4 +1,4 @@
-x#!/bin/bash -l
+#!/bin/bash -l
 
 #SBATCH -A g2019003
 #SBATCH -p core
