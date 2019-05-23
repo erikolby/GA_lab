@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 4
 #SBATCH -t 20:00:00
-#SBATCH -J maker_annotation_erik_olby
+#SBATCH -J maker_annotation_augustus_erik_olby
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user erik.olby@gmail.com
 
