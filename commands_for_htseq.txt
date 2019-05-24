@@ -1,0 +1,1 @@
+htseq-count --format='bam' --order='name' --stranded='yes' --type='exon' --idattr='gene_id' --samout='htseq_output' tophat_sorted/used_files/accepted_hits_sorted_2019-05-24_tophat_out_SRR6040092_scaffold_10.1.bam ref_genome_annotation_altered.gtf > htseq_out.txt
