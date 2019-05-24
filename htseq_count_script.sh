@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 for file in /home/erol7379/genome_analysis/analyses/07_new_files_prot_assem/tophat_sorted/used_files/*
 do
 	output=$(basename $file)
