@@ -1,0 +1,4 @@
+module load bioinfo-tools 
+module load cufflinks
+
+gffread my.gff3 -T -o my.gtf
