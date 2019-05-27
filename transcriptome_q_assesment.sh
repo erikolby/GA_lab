@@ -12,7 +12,6 @@
 module load bioinfo-tools
 module load transrate
 
-transrate --assembly /home/erol7379/genome_analysis/analyses/02_assembly_correction_pilon/pilon_output.fasta \
---left /home/erol7379/genome_analysis/data/raw_data/transcriptome/trimmed/SRR6040092_scaffold_10.1.fastq.gz \
---right /home/erol7379/genome_analysis/data/raw_data/transcriptome/trimmed/SRR6040092_scaffold_10.2.fastq.gz \
---threads 2
+transrate --assembly /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/trinity_outfiles/Trinity-GG.fasta \
+--threads 2 \
+--output /home/erol7379/genome_analysis/analyses/04_tophat_transcript_mapping/trinity_outfiles/quality_assesment
