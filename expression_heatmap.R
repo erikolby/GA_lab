@@ -38,7 +38,7 @@ heatmap.2( assay(rld)[ topVarGenes, ], scale="row",
            col = colorRampPalette( rev(brewer.pal(9, "RdBu")) )(255))
 
 # PCA
-#plotPCA(rld,intgroup=c("type"))
+plotPCA(rld,intgroup=c("type"))
 
 res <- results(dds)
 resOrdered <- res[order(res$padj),]  #order by padj(adjusted p-value), small padj indicates large difference
